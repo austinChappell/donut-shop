@@ -1,0 +1,392 @@
+html, body {
+  height: 100%;
+  background-color: #EBC68A;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: rgb(173, 10, 15);
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFE8;
+  font-family: Lato, sans-serif;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+  color: #FFFFE8;
+  font-family: Lato, sans-serif;
+}
+
+a, a:hover, a:visited, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  text-decoration: none;
+  color: #FFFFE8;
+}
+
+.container-fluid {
+  width: 85%;
+}
+
+.hero-image-1, .hero-image-2, .hero-image-3, .hero-image-4 {
+  width: 100%;
+  text-align: center;
+  color: #FFFFE8;
+}
+
+.hero-image-1 {
+  background: url('../images/donut-girl-dark.jpg') center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: 20vh;
+}
+
+.hero-image-1 h1 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero-image-1 button {
+  margin: 30px;
+  background: rgb(93, 58, 27);
+  color: #FFFFE8;
+  border: 0;
+  font-size: 24px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px white;
+  outline: none;
+  font-family: Lato, sans-serif;
+}
+
+.hero-image-2 {
+  background: url('../images/laptop.jpg') center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 50vh;
+  padding-top: 15vh;
+}
+
+.hero-image-3 {
+  background: url('../images/sprinkled-donuts.jpg') center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 50vh;
+  padding-top: 20vh;
+}
+
+.hero-image-4 {
+  background: url('../images/sprinkled-donut.jpg') center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 50vh;
+  padding-top: 10vh;
+}
+
+.company-logo {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.phone-number {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.title-box {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(93, 58, 27, 0.8);
+  border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, sans-serif;
+  color: rgb(93, 58, 27);
+}
+
+p, table {
+  font-family: Raleway, sans-serif;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+h1 {
+  margin: 20px;
+  color: white;
+}
+
+.content1 {
+  text-align: center;
+  padding-bottom: 60px;
+  min-height: 50vh;
+  width: 600px;
+  margin: 0 auto 50px;
+}
+
+.content2 {
+  min-height: 80vh;
+  padding-bottom: 60px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.content3 {
+  width: 90%;
+  margin: 0 auto 50px;
+}
+
+h2 {
+  color: rgb(93, 58, 27);
+  text-align: center;
+}
+
+.menu-sub-title {
+  margin-top: 50px;
+}
+
+.content-title {
+  margin: 40px 0;
+  color: rgb(173, 10, 15);
+  text-transform: uppercase;
+  font-size: 56px;
+  text-shadow: 1px 1px white, 2px 2px 2px black;
+}
+
+.sub-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.locations {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 30px 0 0;
+}
+
+.section-title {
+  font-size: 20px;
+  color: rgb(93, 58, 27);
+}
+
+.donut {
+  width: 30%;
+  min-width: 150px;
+}
+
+.hours {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+.sub-item {
+  text-align: center;
+  font-size: .9em;
+}
+
+.item-divider {
+  margin: 5px 0;
+  border-color: rgb(93, 58, 27);
+}
+
+.meat-choices {
+  font-size: 14px;
+  margin: 0;
+}
+
+table {
+  text-align: left;
+  margin: 0 auto 20px;
+}
+
+td {
+  padding: 0 20px;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  margin: 0 auto 10px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: #FFFFE8;
+}
+
+.input-label {
+  text-align: left;
+}
+
+.submit-button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 0 auto;
+  background-color: rgb(93, 58, 27);
+  color: white;
+  border-radius: 5px;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  background: rgb(173, 10, 15);
+  color: #FFFFE8;
+  font-size: 16px;
+  padding: 20px;
+  min-height: 20vh;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+#birthday-donuts {
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+
+#birthday-donuts .content-title {
+  margin-top: 0;
+}
+
+.thumbnail {
+  width: 90%;
+  float: left;
+  margin: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-default .navbar-brand {
+    font-size: 14px;
+  }
+  ul.nav.navbar-nav.navbar-right li a {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
+  .navbar-default .navbar-brand {
+    font-size: 18px;
+  }
+  ul.nav.navbar-nav.navbar-right li a {
+    font-size: 12px;
+  }
+  .company-logo {
+    width: 300px;
+  }
+  .content1, .content2, .content3 {
+    width: 100%;
+    min-width: 300px;
+    padding: 0 40px;
+  }
+  .hero-image-1 button {
+    margin: 18px;
+    font-size: 20px;
+    padding: 6px 18px;
+  }
+  li {
+    font-size: 12px;
+  }
+  .phone-number {
+    font-size: 22px;
+  }
+  .title-box h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .section-title{
+    font-size: 16px;
+  }
+  .locations {
+    width: 100%;
+  }
+  p, table {
+    font-size: 16px;
+  }
+  td {
+    padding: 0 10px;
+  }
+  .hero-image-1 {
+    background-attachment: scroll;
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-image-2 {
+    background-attachment: scroll;
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-image-3 {
+    background-attachment: scroll;
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-image-4 {
+    background-attachment: scroll;
+    max-width: 100%;
+    height: auto;
+  }
+  .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0 0;
+    -webkit-transform-origin: 0 0 0;
+  }
+}
