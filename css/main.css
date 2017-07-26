@@ -167,8 +167,19 @@ h2 {
   text-align: center;
 }
 
+#menu-section ul {
+  margin: 10px 0;
+}
+
 .menu-sub-title {
-  margin-top: 50px;
+  cursor: pointer;
+  padding: 5px 0;
+  border-bottom: 2px solid rgb(93, 58, 27);
+}
+
+.menu-sub-title h3 {
+  margin: 0;
+  padding-top: 20px;
 }
 
 .content-title {
@@ -214,6 +225,7 @@ ul {
 li {
   list-style: none;
   text-align: left;
+  font-size: 1.3em;
 }
 
 .sub-item {
@@ -223,11 +235,11 @@ li {
 
 .item-divider {
   margin: 5px 0;
-  border-color: rgb(93, 58, 27);
+  border-color: rgb(173, 10, 15);
 }
 
 .meat-choices {
-  font-size: 14px;
+  font-size: 0.7em;
   margin: 0;
 }
 
@@ -319,6 +331,10 @@ textarea {
   margin: 5%;
 }
 
+.hide {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   .navbar-default .navbar-brand {
     font-size: 14px;
@@ -350,6 +366,9 @@ textarea {
   }
   li {
     font-size: 12px;
+  }
+  .menu-sub-title h3 {
+    font-size: 1.3em;
   }
   .phone-number {
     font-size: 22px;
