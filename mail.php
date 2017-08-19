@@ -21,7 +21,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 $date = $_POST['date'];
 $formcontent="From: $name \n Email: $email \n Phone: $phone \n Message: $message \n Date Needed: $date";
-$recipient = "jbgecko5150@yahoo.com";
+$recipient = "jbgecko5150@yahoo.com, burke292ruthie@gmail.com, kara.johnson809@gmail.com";
 $subject = "Order Form";
 $mailheader = "From: $sender \r\n";
 if(!$captcha) {

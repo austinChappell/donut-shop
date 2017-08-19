@@ -335,6 +335,16 @@ textarea {
   display: none;
 }
 
+.footer-link {
+  color: #EBC68A;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: #EBC68A;
+  text-decoration: underline;  
+}
+
 @media screen and (max-width: 900px) {
   .navbar-default .navbar-brand {
     font-size: 14px;
