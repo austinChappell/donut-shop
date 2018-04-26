@@ -21,7 +21,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 $date = $_POST['date'];
 $formcontent="From: $name \n Email: $email \n Phone: $phone \n Message: $message \n Date Needed: $date";
-$recipient = "jbgecko5150@yahoo.com, Burke929ruthie@gmail.com, kara.johnson809@gmail.com";
+$recipient = "jbgecko5150@yahoo.com, Burke929ruthie@gmail.com, kara.johnson809@gmail.com, joy.rebekah@yahoo.com";
 $subject = "Order Form";
 $mailheader = "From: $sender \r\n";
 if(!$captcha) {
@@ -33,10 +33,9 @@ if(!$captcha) {
     echo "<a href='index.html'><button class='submit-button'>Go Back</button></a>";
     mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
   } else if($response.success == false) {
-    echo "<h3>Please be verify that you are not a robot.</h3>";
+    echo "<h3>Oops! Something went wrong. Please try again.</h3>";
   };
 };
-// echo "Thank you!";
 
 ?>
 
